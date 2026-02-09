@@ -14,7 +14,7 @@ async function displayLibrary() {
     stories.forEach(story => {
         let a = element('a', {href: 'story.html', class: 'menu__link'});
         const h3 = element('h3', {}, story.title);
-        const img = element('img', {src: `../images/Le petit chaperon rouge/${story.slug}.png`});
+        const img = element('img', {src: `images/le-petit-chaperon-rouge/${story.slug}.png`});
 
         a.append(h3, img);
 

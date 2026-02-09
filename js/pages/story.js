@@ -43,7 +43,7 @@ function createPageContent(page) {
         div.append(p);
 
         if (el.img) {
-            const img = element('img', {src: `../images/Le petit chaperon rouge/${el.img}.png`});
+            const img = element('img', {src: `images/le-petit-chaperon-rouge/${el.img}.png`});
             div.append(img);
         }
     })
@@ -79,4 +79,4 @@ function createPageChoices(page) {
 
 
 //// CODE ////
-displayStory(102);
+displayStory(1);
