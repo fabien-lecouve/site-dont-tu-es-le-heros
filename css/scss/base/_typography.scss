@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as *;
+
+* {
+    font-family: "Libre Baskerville", serif;
+    color: text;
+}
+
+h1, h2 {
+    margin-bottom: 32px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: $carmin;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: $carmin;
+}

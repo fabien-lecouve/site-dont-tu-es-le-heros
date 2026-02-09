@@ -1,0 +1,6 @@
+@use '../abstracts/variables' as *;
+
+body {
+    margin: 16px;
+    background-color: $bgColor;
+}

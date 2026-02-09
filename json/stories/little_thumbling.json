@@ -1,0 +1,21 @@
+{
+    "id": 1,
+    "title": "Le petit chaperon rouge",
+    "pages": [
+        {
+            "id": 1,
+            "content": [
+                {
+                    "text": "Le lendemain, le village fêta le retour du Petit Chaperon Rouge. Elle raconta son histoire, et expliqua comment certains hommes détruisaient la forêt, obligeant les animaux à se déplacer. Les villageois furent émus et, à l'unanimité, décidèrent que désormais, ils ne prendraient de la forêt que ce dont ils auraient réellement besoin. Car si l'homme peut détruire la nature, il a aussi le pouvoir de la protéger.",
+                    "img": ""
+                }
+            ],
+            "choices": [
+                {
+                    "id": 2,
+                    "action": "Retour au début"
+                }
+            ]
+        }
+    ]
+}

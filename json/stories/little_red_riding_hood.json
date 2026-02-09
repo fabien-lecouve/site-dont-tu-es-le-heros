@@ -1,0 +1,335 @@
+{
+    "id": 1,
+    "title": "Le petit chaperon rouge",
+    "pages": [
+        {
+            "id": 1,
+            "content": [
+                {
+                    "text": "Tu entends les cloches de l'église sonner. C'est la première fois que tu viens dans ce village. Tu ne sais donc pas où se trouve l'église, mais tu essaies de te repérer grâce au bruit. En suivant le son, tu arrives bientôt sur la place du village. Une foule est rassemblée devant l'église.<br><br>Curieuse, tu t'approches. Malgré le nombre de personnes, tu réussis à te frayer un chemin jusqu'à l'avant. Les villageois discutent à voix basse et regardent tous dans la même direction : la porte de l'église. Tu suis leur regard et aperçois une affiche accrochée au bois sombre. On y voit le visage d'une petite fille blonde, une cape carmin couvrant sa tête et ses épaules. De grandes lettres noires ont été peintes par-dessus son portrait, formant un message. Mais même sans les lire, tu l'aurais reconnue.<br><br>C'est le Petit Chaperon Rouge.<br><br>Et elle a disparu.",
+                    "img": "1-1"
+                    
+                }
+            ],
+            "choices": [
+                {
+                    "id": 2,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "content": [
+                {
+                    "text": "Autour de toi, c'est la folie. Dans ce petit village où tout le monde se connaît, il ne se passe d'ordinaire jamais rien de dangereux. Une vieille dame affirme que c'est le diable qui a enlevé le Petit Chaperon Rouge, pour punir les habitants de s'être détournés de Dieu. Un autre villageois raconte que, depuis quelque temps, il sent une étrange présence dans les bois. Un soir, alors que la nuit tombait, il aurait aperçu dans l'ombre de terrifiants yeux rouges.",
+                    "img": "2-1"
+                },
+                {
+                    "text": "Le Petit Chaperon Rouge aurait disparu depuis hier soir, mercredi. Tu parcours la foule à la recherche de quelqu'un qui connaissait bien la petite fille. Finalement, tu repères la boulangère. Elle t'explique que le Petit Chaperon Rouge avait pour habitude de rendre visite à sa grand-mère chaque mercredi après-midi. Elle en est certaine, car la fillette venait tous les mardis soir lui acheter une galette au beurre. D'ailleurs, elle est bien venue à la boulangerie il y a deux jours. La question est maintenant de savoir ce qui s'est passé ensuite.<br><br>Le Petit Chaperon Rouge est-elle bien allée à l'école le mercredi matin ?<br><br>Est-elle allée chez sa grand-mère après la classe ?<br><br>Par où commencer tes recherches ?<br><br>Te voilà face à un choix."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 31,
+                    "action": "Aller chez le Petit Chaperon Rouge"
+                },
+                {
+                    "id": 32,
+                    "action": "Aller à l'école"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "content": [
+                {
+                    "text": "Tu parcours le village à la recherche de la maison du Petit Chaperon Rouge. Peu à peu, ta route te mène vers la partie la plus pauvre du village. Les rues pavées disparaissent et laissent place à des chemins boueux. Tes pieds s'enfoncent de plus en plus dans la boue, et tu regrettes de ne pas avoir pensé à prendre des bottes. Finalement, tu arrives devant la maison du Petit Chaperon Rouge. En réalité, il s'agit d'une petite cabane. Malgré la pauvreté des environs, le logis est bien entretenu. Un jardin fleuri entoure la cabane, et des poules y gambadent joyeusement. Tu comprends alors que le Petit Chaperon Rouge est pauvre, mais que malgré tout, elle dépense chaque semaine son argent de poche pour acheter une galette au beurre et apporter un peu de réconfort à sa grand-mère.",
+                    "img": "31-1"
+                },
+                {
+                    "text": "Assise sur les marches de la cabane, une dame pleure doucement. C'est la maman du Petit Chaperon Rouge. Tu lui dis de ne pas s'inquiéter et que tu feras tout pour retrouver sa fille. Elle essuie ses larmes et t'explique que, le matin de sa disparition, sa fille est partie comme tous les mercredis à l'école. Après la classe, elle devait se rendre directement chez sa grand-mère. Pour t'aider dans ta quête, la maman te confie une carte indiquant le chemin pour se rendre chez la grand-mère. Et pour te remercier, elle t'offre une paire de <strong>bottes</strong>. En quittant la cabane, tu jettes un dernier regard vers le village.<br><br>Tu sais que tu n'auras plus le temps d'aller ailleurs.<br><br>Chaque minute compte.",
+                    "img": "31-2"
+                }
+            ],
+            "tool": "boots",
+            "choices": [
+                {
+                    "id": 4,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "content": [
+                {
+                    "text": "Tu parcours le village à la recherche de l'école du Petit Chaperon Rouge. Tu arrives au moment de la récréation. Les enfants sont tous dehors, mais personne ne joue, personne ne crie. Tous semblent attristés par la disparition de leur camarade. Tu traverses la cour et atteins la salle de classe où se trouve la maîtresse du Petit Chaperon Rouge. Elle t'explique qu'après l'école, la fillette est partie en direction de la forêt pour se rendre chez sa grand-mère. Malheureusement, elle ne sait pas exactement où se trouve sa maison. Tu t'approches de la place du Petit Chaperon Rouge et découvres son bureau. C'est un modèle avec un petit coffre de rangement. Tu le soulèves et y trouves un dessin représentant l'école, la forêt et la maison de la grand-mère.<br><br>C'est une carte !",
+                    "img": "32-1"
+                },
+                {
+                    "text": "Tu sors ensuite du bâtiment et retournes dans la cour. Tu t'adresses aux enfants et leur dis que tu vas tout faire pour retrouver leur camarade. Une petite fille s'approche alors de toi et te tend un sifflet pour t'aider dans ta quête.<br><br>Tu le serres dans ta main.<br><br>Il est temps de quitter le village et de partir à sa recherche.",
+                    "img": "32-2"
+                }
+            ],
+            "tool": "whistle",
+            "choices": [
+                {
+                    "id": 4,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "content": [
+                {
+                    "text": "Tu prends la direction de la forêt. Le sol est légèrement boueux, et chacun de tes pas y laisse une empreinte. Plus tu t'enfonces dans la végétation, moins le soleil parvient à percer entre les arbres. Autour de toi, un silence étrange s'installe. Tu arrives enfin à un carrefour où trois chemins s'offrent à toi. Malheureusement, ta carte ne mentionne pas cet embranchement.",
+                    "img": "4-1"
+                },
+                {
+                    "text": "En regardant le sol de plus près, tu remarques plusieurs empreintes. Chacune d'elles part dans une direction différente. Tu ne sais pas à quel animal elles appartiennent. S'agit-il seulement d'un animal ? Il va pourtant falloir choisir. Les traces disparaissent lentement sous les feuilles humides."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 51,
+                    "action": "Suivre les traces du premier animal"
+                },
+                {
+                    "id": 52,
+                    "action": "Suivre les traces du deuxième animal"
+                },
+                {
+                    "id": 53,
+                    "action": "Suivre les traces du troisième animal"
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "content": [
+                {
+                    "text": "Tu choisis de suivre les empreintes les plus légères. Elles sont fines, espacées, et marquent à peine la boue. Le chemin devient plus clair. Les arbres s'écartent et laissent passer la lumière. Très vite, les traces quittent le sol. Elles s'approchent du tronc d'un arbre… puis disparaissent. En levant les yeux, tu comprends pourquoi. Un battement d'ailes résonne au-dessus de ta tête. Un oiseau est perché sur une branche et t'observe.",
+                    "img": "/51-1"
+                },
+                {
+                    "text": "Tu lui expliques que tu es à la recherche d'une petite fille qui a disparu la veille dans la forêt. L'oiseau te répond en piaillant qu'il ne l'a pas vue, mais qu'il a entendu un bruit qui l'a vraiment terrifié. La nuit dernière, un hurlement a retenti à plusieurs endroits de la forêt. En suivant le regard de l'oiseau, tu te rends compte que tu te diriges droit vers la source de ce cri."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 6,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "content": [
+                {
+                    "text": "Tu choisis de suivre les empreintes qui s'enfoncent dans la boue. Elles sont plus marquées et te mènent entre les racines des arbres. Le chemin devient plus étroit. Les branches se rapprochent et la lumière se fait plus rare. Les empreintes te conduisent jusqu'à un terrier caché sous des feuilles et de la terre. Tu t'arrêtes devant l'entrée et demandes doucement si quelqu'un est là. Après quelques secondes, un petit lapin sort du terrier. Il tremble légèrement et semble très apeuré.",
+                    "img": "52-1"
+                },
+                {
+                    "text": "Tu lui demandes s'il a vu le Petit Chaperon Rouge. Le lapin secoue la tête. Il ne l'a pas vue. En revanche, il t'explique qu'un peu plus loin, il a découvert des empreintes étranges, comme il n'en avait encore jamais vues. Il te montre la direction du bout de la patte. Sans hésiter, tu prends ce chemin. Tu te diriges droit vers ces traces inconnues, là où la forêt est la plus dense."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 6,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "content": [
+                {
+                    "text": "Tu choisis de suivre les empreintes qui zigzaguent entre les racines et les pierres. Elles te mènent jusqu'au pied d'un grand arbre. Soudain, paf ! Une pomme de pin te tombe sur la tête. Surprise, tu lèves les yeux. Un écureuil est perché sur une branche, sa queue touffue frémissant d'excitation.",
+                    "img": "53-1"
+                },
+                {
+                    "text": "Tu lui demandes s'il a vu le Petit Chaperon Rouge. L'écureuil secoue vivement la tête. Il ne l'a pas vue. En revanche, il t'explique que, depuis le haut de son arbre, il a aperçu quelque chose d'étrange la veille au soir. Dans les buissons, une créature aux épais poils noirs bougeait lentement. Puis elle a disparu entre les arbres. L'écureuil te montre l'endroit d'où elle est venue. En regardant dans cette direction, tu comprends que tu t'aventures vers une partie de la forêt plus sombre et plus dense."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 6,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "content": [
+                {
+                    "text": "En avançant sur le chemin, tu entends soudain un bruit régulier. Toc… toc… toc… Tu débouches sur une petite clairière. Un bûcheron est là, occupé à couper du bois. Tu t'approches de lui et lui demandes s'il a vu le Petit Chaperon Rouge. Il secoue la tête. Il ne l'a pas vue.",
+                    "img": "6-1"
+                },
+                {
+                    "text": "En revanche, il t'explique qu'un loup a été entendu la nuit dernière. Un long hurlement a résonné dans la forêt et a effrayé tous les animaux. Tu comprends alors l'origine de la peur qui règne dans les bois. Le loup. C'est lui qui terrorise tout le monde. Tu remercies le bûcheron et reprends ton chemin. Avant de te laisser partir, il te lance un dernier regard inquiet.<br><br>« Fais très attention », te dit-il."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 7,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "content": [
+                {
+                    "text": "Après avoir quitté le bûcheron, tu poursuis ton chemin dans la forêt. Bientôt, le sentier se sépare en deux. Sur ta gauche, un chemin s'enfonce dans une zone très boueuse. La terre est molle, l'eau s'accumule entre les racines, et le sol semble difficile à traverser.",
+                    "img": "7-1"
+                },
+                {
+                    "text": "Sur ta droite, le chemin est plus praticable. Le sol est plus ferme, mais en regardant attentivement, tu remarques de profondes empreintes. Ce sont des empreintes de loup. Tu t'arrêtes un instant, observant les deux chemins. Puis tu reprends ta route.",
+                    "img": "7-2"
+                }
+            ],
+            "choices": [
+                {
+                    "id": 81,
+                    "action": "Prendre chemin de gauche",
+                    "tool": "boots"
+                },
+                {
+                    "id": 82,
+                    "action": "Prendre chemin de droite",
+                    "tool": "whistle"
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "content": [
+                {
+                    "text": "Tu repenses au croisement que tu viens de laisser derrière toi. Le chemin de droite était trop dangereux. Les empreintes de loup étaient encore fraîches, et tu n'as pas voulu prendre ce risque. Heureusement, tes bottes te permettent d'avancer sans trop de difficulté dans la boue. Tu t'enfonces un peu plus dans la forêt. Le sol devient de plus en plus mou, au point que tu t'enfonces maintenant jusqu'aux genoux. À chacun de tes pas, tu as l'impression que ton pied va rester coincé. Pourtant, grâce à tes bottes, tu continues à avancer lentement.",
+                    "img": "81-1"
+                },
+                {
+                    "text": "Soudain, un hurlement retentit. Ce cri te glace le sang, et tu n'oses plus bouger. Si le loup venait à t'attaquer maintenant, tu serais prise au piège dans la boue. Tu retiens ta respiration et ne fais plus un bruit. Les minutes s'écoulent. La nuit commence à tomber. Le froid se fait sentir, et tu regrettes un instant d'être venue. Mais tu te ressaisis. Tu continues d'avancer.<br><br>Tu dois sauver le Petit Chaperon Rouge."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 9,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 82,
+            "content": [
+                {
+                    "text": "Tu repenses au croisement que tu viens de laisser derrière toi. Le chemin de gauche était impraticable. Sans bottes, la boue t'aurait ralentie et mise en danger. Tu n'as donc eu d'autre choix que de suivre le chemin de droite. Les empreintes de loup te mettent mal à l'aise. Tu serres ton sifflet dans ta main et avances prudemment. Tu consultes la carte et constates que les traces du loup semblent mener vers la cabane de la grand-mère du Petit Chaperon Rouge. <br><br>Et puis, soudain, il est là. Au détour d'un virage. Les oreilles dressées, à l'affût, il t'a entendue et tourne lentement la tête dans ta direction. Ses yeux se fixent sur toi. Ses babines se retroussent. Un grondement sourd s'échappe de sa gorge.<br><br>Le loup.",
+                    "img": "82-1"
+                },
+                {
+                    "text": "Tu te figes sur place, le sang glacé. Ton corps se met à trembler. Il avance vers toi, un pas assuré après l'autre. Tu trembles tellement que le sifflet, serré dans ta main, commence à faire du bruit. Le sifflet. Sans réfléchir, tu le portes à ta bouche et souffles de toutes tes forces. Un cri strident retentit dans la forêt. Le loup sursaute et détale, effrayé. Toujours tremblante, tu laisses échapper le sifflet. Il tombe dans une flaque de boue. Tu essaies de souffler dedans à nouveau, mais il ne fonctionne plus. Tu es terrorisée. Pourtant, tu dois continuer.<br><br>La vie du Petit Chaperon Rouge en dépend."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 9,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "content": [
+                {
+                    "text": "Une odeur de bois brûlé emplit tes narines. Tu poursuis ton chemin et aperçois une cabane, de la fumée s'échappant de sa cheminée. Tu t'approches doucement, guettant le moindre bruit, car le loup n'est pas loin. Le soleil est presque couché, et sous l'épaisse forêt, la lumière devient rare. Tu regardes par la fenêtre de la cabane. À l'intérieur, tu aperçois une petite fille assise près de la cheminée, une vieille dame à ses côtés.<br><br>Le Petit Chaperon Rouge et sa grand-mère.<br><br>Elles sont saines et sauves.",
+                    "img": "9-1"
+                },
+                {
+                    "text": "Tu ouvres la porte de la cabane et entres rapidement.<br><br>— Qui… qui êtes-vous ? demande le Petit Chaperon Rouge d'une voix tremblante.<br><br>— Je suis là pour vous sauver, réponds tu. Tout le village te croit disparue. Pourquoi n'es-tu pas rentrée hier soir ?<br><br>— Un loup encercle la cabane depuis la nuit dernière, explique le Petit Chaperon Rouge. J'ai eu bien trop peur pour repartir.<br><br>Au même instant, un grognement, suivi d'une plainte sourde, se fait entendre à l'extérieur.<br><br>Le loup est là. La bête se met à gratter le sol près de la cabane.<br><br>Elle cherche à entrer."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 101,
+                    "action": "Aller sous la cabane et confronter le loup"
+                },
+                {
+                    "id": 102,
+                    "action": "S'enfuir avec le Petit Chaperon Rouge"
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "content": [
+                {
+                    "text": "Pourrait-il vraiment entrer en passant sous la cabane ? Tu soulèves l'une des planches du plancher et jettes un coup d'œil. La cabane n'est pas construite à même le sol. En dessous, se trouvent de petits combles sombres. Tu prends un morceau de bois dans la cheminée et en fais une torche avant de descendre sous la cabane. L'air est froid et humide. De vieilles planches sont entassées ça et là. Tu inspectes chaque recoin et avances lentement vers l'endroit où le loup gratte le sol. Tu découvres alors un trou. Il est bien trop petit pour qu'un loup adulte puisse passer.<br><br>Pourquoi s'acharne-t-il à gratter ?<br><br>Soudain, un petit cri plaintif se fait entendre sur ta gauche. Tu tournes légèrement la torche. Et tu les aperçois. De petites boules de poils, serrées les unes contre les autres.<br><br>Des louveteaux. ",
+                    "img": "101-1"
+                },
+                {
+                    "text": "Tu comprends. Le loup est en réalité une louve. Elle essaie de récupérer ses petits, tombés sous la cabane. Tu t'approches doucement et saisis le premier louveteau. À l'extérieur, la louve grogne, inquiète. Lentement, tu approches ta main de l'ouverture et fais sortir le petit animal. La louve s'avance aussitôt. Elle renifle son petit, puis se met à le lécher avec douceur. Tu recommences l'opération. Un par un, tu fais sortir tous les louveteaux. La petite meute est enfin réunie.<br><br>— Merci, dit la louve."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 11,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "content": [
+                {
+                    "text": "Profitant du fait que le loup soit occupé à gratter le sol, tu décides d'emmener le Petit Chaperon Rouge et sa grand-mère loin d'ici. Il faut faire vite. Vous ouvrez doucement la porte et sortez sans un bruit. Vos pas sont légers et silencieux. Vous avancez prudemment pour ne pas attirer l'attention du loup. De temps en temps, tu jettes un regard derrière toi pour vérifier qu'il ne vous a pas vues.<br><br>Vous avez fait plus de dix pas depuis la porte de la cabane. Tu continues d'avancer, tenant fermement la main du Petit Chaperon Rouge, qui tient elle-même celle de sa grand-mère.<br><br>Douze pas.<br><br>Tu es tellement concentrée sur votre fuite que tu ne remarques pas que les grattements du loup se sont arrêtés.<br><br>Quatorze pas.<br><br>Tu oses un regard en arrière. Ton cœur s'arrête. Le loup vous regarde. Sa patte bouge. Il s'apprête à bondir. Plus rien ne vous sépare de lui.",
+                    "img": "102-1"
+                },
+                {
+                    "text": "Pourquoi as-tu quitté la cabane ? Soudain, le loup tourne les talons. Il recommence à renifler et à gratter sous la cabane. Ça n'a aucun sens. Pourquoi ne vous attaque-t-il pas ? Tu lâches doucement la main du Petit Chaperon Rouge, ramasses une branche et décides de revenir sur tes pas. Tu dois comprendre. Tu t'approches du loup. Il tourne la tête vers toi.<br><br>— Pourquoi ne nous poursuis-tu pas ? demandes-tu. Tu ne veux pas nous manger ?<br><br>— Bien sûr que non, répond le loup. Les loups ne mangent pas les humains. Vous nous faites bien trop peur.<br><br>— Mais alors pourquoi fais-tu si peur au Petit Chaperon Rouge depuis hier soir ?<br><br>— Je suis désolée de lui avoir fait peur, répond le loup. J'essaie seulement de récupérer mes petits. Ils sont tombés sous la cabane.<br><br>Tu tends l'oreille. De petits cris plaintifs se font entendre, à peine audibles. Il y a réellement des louveteaux coincés sous la cabane. En regardant mieux, tu t'aperçois que le loup est en fait...une louve !<br><br>— Tu promets de ne pas m'attaquer si je t'aide à les sortir ? demandes-tu.<br><br>— Je te le promets, répond la louve.<br><br>Tu t'allonges à plat ventre et tends le bras vers le trou sous la cabane. Tu attrapes délicatement le premier louveteau et le fais sortir. La louve s'avance aussitôt. Elle renifle son petit, puis se met à le lécher avec douceur. Tu recommences l'opération. Un par un, tu fais sortir tous les louveteaux. La petite meute est enfin réunie.<br><br>— Merci, dit la louve."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 11,
+                    "action": "Continuer"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "content": [
+                {
+                    "text": "Tu entends du bruit derrière toi. Le Petit Chaperon Rouge s'est approchée avec sa grand-mère.<br><br>— N'aie pas peur, lui dit la louve. Je ne vais pas te manger.<br><br>— Tu es sûre ? demande le Petit Chaperon Rouge. Tu manges quand même de petits animaux…<br><br>— Je n'ai pas le choix, répond la louve. C'est la nature qui m'a créée ainsi. Je chasse pour vivre et nourrir mes petits. Les carottes sont mangées par les lapins, et les lapins par les loups.<br><br>— Et toi alors, demande le Petit Chaperon Rouge, qui te mange ?<br><br>La louve baisse doucement la tête.<br><br>— Il est vrai que j'ai peu de prédateurs. Mais quand je mourrai à mon tour, mon corps se transformera en nutriments. Ils nourriront le sol, permettront à de nouvelles carottes de pousser et ainsi se poursuivra le cycle de la vie.",
+                    "img": "11-1"
+                },
+                {
+                    "text": "Pendant ce temps, l'un des louveteaux s'approche du Petit Chaperon Rouge. Elle ne peut s'empêcher de le caresser, le trouvant trop mignon. Voyant le jeu amusant, ses frères et sœurs s'approchent à leur tour pour profiter des caresses. Le Petit Chaperon Rouge est bientôt entourée. Elle tombe à la renverse en riant, tandis que les louveteaux essaient de lui lécher le visage.<br><br>— Mais alors, demande-t-elle, pourquoi n'es-tu pas dans la forêt à chasser des lapins pour nourrir tes petits ?<br><br>La louve soupire.<br><br>— À cause d'un nouveau prédateur. Il chasse tout le gibier, détruit les arbres et nous oblige à nous déplacer. Parfois, il ne chasse même pas pour manger… mais pour s'amuser.<br><br>Le Petit Chaperon Rouge demande timidement, presque terrorisée :<br><br>— Est-ce un ours ? Un lion ? Un dragon peut-être ?<br><br>La louve secoue lentement la tête.<br><br>— Oh non. Ce sont les hommes."
+                }
+            ],
+            "choices": [
+                {
+                    "id": 12,
+                    "action": "Fin"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "content": [
+                {
+                    "text": "Le lendemain, le village fêta le retour du Petit Chaperon Rouge. Elle raconta son histoire, et expliqua comment certains hommes détruisaient la forêt, obligeant les animaux à se déplacer. Les villageois furent émus et, à l'unanimité, décidèrent que désormais, ils ne prendraient de la forêt que ce dont ils auraient réellement besoin.<br><br>Car si l'homme peut détruire la nature, il a aussi le pouvoir de la protéger.",
+                    "img": "12-1"
+                }
+            ],
+            "choices": [
+                {
+                    "id": 1,
+                    "action": "Retour au menu",
+                    "lastPage": true
+                }
+            ]
+        }
+    ]
+}
